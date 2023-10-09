@@ -48,7 +48,7 @@ class FirebaseAuthRepository {
       LoggerService.e('Error sending password reset email: ${e.message}');
       return Result(error: e.message);
     } catch (e) {
-      LoggerService.e('Error sending password reset email: $e');
+      LoggerService.e('Error sending : $e');
       return Result(error: e.toString());
     }
   }
