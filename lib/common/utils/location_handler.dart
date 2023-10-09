@@ -64,7 +64,7 @@ class LocationHandler {
       );
 
       LoggerService.i(
-          'Current address: ${address.toJson()}'); // Log the address
+          'Current address: ${address.toJson()}');
 
       return Result(data: address);
     } catch (e) {
